@@ -1,0 +1,133 @@
+.Profile {
+    height: 100vh;
+    width: 100vw;
+    background-color: #f2f2f2;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Profile-user {
+    height: 146px;
+    width: 841px;
+    margin-top: 25px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Profile-info {
+    display: flex;
+}
+
+.Profile-pic {
+    height: 125px;
+    width: 120px;
+    /* background-color: salmon; */
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.Name-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.First-name {
+    /* font-size: 20px; */
+    font-weight: bolder;
+}
+
+.Last-name {
+    font-weight: bolder;
+}
+
+.Buttons {
+    display: flex;
+}
+
+.Update-button {
+    height: 35px;
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 1px;
+    background-image: radial-gradient(circle at 50%-46%, #737373, #403d39);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.Cancel-button {
+    height: 35px;
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 1px;
+    background-image: radial-gradient(circle at 50% 0, #ffffff, #f1eceb);
+    border: solid 1 px #ccc3c3;
+}
+
+.User-info {
+    height: 450px;
+    width: 841px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+.Left-right-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Left-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.Left-user-input {
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.User-name-input {
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid #ff9770;
+}
+
+.Select-style {
+    font-size: 22px;
+    width: 90%;
+}
+
+.Right-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.Right-user-input {
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.Makin-space {
+    width: 250px;
+}
+
+.Error-message {
+    color: red;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}

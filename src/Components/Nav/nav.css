@@ -1,0 +1,75 @@
+.Header {
+    height: 60px;
+    width: 100vw;
+    background-image: linear-gradient(97deg, #ff7a6e, #ff9770);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-direction: row; */
+}
+
+.Header-child-container {
+    height: 100%;
+    width: 80%;
+    min-width: 1000px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.Left-side {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.Helo-text {
+    font-size: 31px;
+    font-weight: bolder;
+    /* margin-left: 210px; */
+    /* margin-bottom: 22px; */
+    color: #fff;
+}
+
+.Home-button {
+    height: 27px;
+    width: 30px;
+    background-image: url('../../Pictures/home.png');
+    background-size: cover;
+    margin-left: 20px;
+}
+
+.Search-button {
+    height: 27px;
+    width: 27px;
+    background-image: url('../../Pictures/search.png');
+    background-size: cover;
+    margin-left: 20px;
+}
+
+.Mid-text {
+    font-size: 21px;
+    color: white;
+    font-weight: lighter;
+    /* font-family: Open Sans,sans-serif; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logout {
+    font-size: 18px;
+    color: white;
+    font-weight: lighter;
+    /* font-family: Open Sans,sans-serif;  */
+    width: 20%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.Logout:first-child {
+    text-decoration: none;
+}

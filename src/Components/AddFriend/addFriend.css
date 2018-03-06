@@ -1,0 +1,58 @@
+.Add-friend {
+    height: 100px;
+    width: 380px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    /* 30C */
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.Add-friend-pic {
+    height: 100%;
+    width: 100px;
+    /* background-color: salmon; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.Add-name-container {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.Add-name-placeholder {
+    font-size: 18px;
+    font-weight: bolder;
+    display: flex;
+    /* 27F */
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    width: 60px;
+}
+
+.Add-friend-button {
+    height: 37px;
+    width: 100px;
+    margin-left: 90px;
+    border-radius: 1px;
+    /* 30D */
+    background-image: radial-gradient(circle at 50%-46%, #ff9770, #ff7a6e);
+    color: white;
+    cursor: pointer;
+}
+
+.Remove-friend-button {
+    height: 37px;
+    width: 100px;
+    margin-left: 90px;
+    border-radius: 1px;
+    background-image: radial-gradient(circle at 50%-46%, #737373, #403d39);
+    color: white;
+    cursor: pointer;
+}

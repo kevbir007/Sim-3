@@ -1,0 +1,138 @@
+.Dashboard {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #f2f2f2;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.User-and-info-containers {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.Profile-box {
+    height: 145px;
+    width: 330px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 25px;
+    display: flex;
+}
+
+.Pic-box {
+    height: 120px;
+    width: 120px;
+    border-color: salmon;
+    border-style: solid;
+    margin-top: 12px;
+    margin-left: 12px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.Name-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.First-name {
+    font-size: 25px;
+    font-weight: bolder;
+    /* height: 30px; */
+}
+
+.Last-name {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 10px;
+    /* height: 30px; */
+}
+
+.Button-spacer {
+    height: 70px;
+}
+
+.Edit-profile-button {
+    height: 35px;
+    width: 150px;
+    margin-top: 5px;
+    background-image: radial-gradient(circle at 50% 0,#fff,#f1eceb);
+    border: 1px solid #ccc3c3;
+    border-radius: 1px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.Info-box {
+    height: 145px;
+    width: 480px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 25px;
+    margin-left: 20px;
+    font-weight: 100;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Recommended-friends-container {
+    overflow-y: scroll;
+    height: 65vh;
+    width: 830px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 25px;
+    flex-direction: column;
+}
+
+.Rec-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height:50px;
+}
+
+.Rec-friends-text {
+    font-size: 26px;
+    padding: 10px;
+    height: 30px;
+}
+
+.Sort-side {
+    padding: 15px;
+    height: 30px;
+    
+}
+
+.Sort-by-text {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.Selector {
+    width: 130px;
+    font-size: 18px;
+}
+
+.Recommendations {
+    margin-top: 20px;
+}
+
+.Add-friend-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
