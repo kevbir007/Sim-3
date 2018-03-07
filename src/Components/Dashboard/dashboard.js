@@ -121,7 +121,7 @@ class Dashboard extends React.Component {
         return (
             <div className='Dashboard'>
             {/* 54G */}
-                <Nav />
+                <Nav /> {/*36H*/}
                 <div className='User-and-info-containers'>
                     <div className='Profile-box'>
                         <div className='Pic-box' style = {{backgroundImage: `url('${this.props.MyImage}')`}}></div>
@@ -129,7 +129,7 @@ class Dashboard extends React.Component {
                             <div className='First-name'>{this.props.First_Name}</div>
                             <div className='Last-name'>{this.props.Last_Name}</div>
                             <div className='Button-spacer'></div>
-                            <Link to='/profile'>
+                            <Link to='/profile'>{/*54H*/}
                                 <button className='Edit-profile-button'>Edit Profile</button>
                             </Link>
                         </div>

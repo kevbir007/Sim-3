@@ -189,6 +189,7 @@ class Profile extends React.Component {
                             <select className='Select-style'                                type="text" 
                                 onChange={e => this.setGender(e.target.value)} 
                                 value={this.state.gender}>
+                                {// 26E}
                                 <option value='' selected disabled>--Select--</option>
                                 <option value='Male'>Male</option>
                                 <option value='Female'>Female</option>
